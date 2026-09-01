@@ -10,7 +10,8 @@
   --color-sed-purple: #8b35e2;
   --color-sed-blue: #00b2ff;
   --color-sed-yellow: #ffa800;
-  --color-yellow: rgba(255,168,0,1);
+  --color-yellow: rgba(255, 168, 0, 1);
+  --color-gray: rgba(255,255,255,0.46);
   --color-sed-red: #ff4560;
   --background-image-orange-gradient: linear-gradient(
     180deg,
