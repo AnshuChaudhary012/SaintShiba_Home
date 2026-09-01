@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="icons/svg" href="assets/icons/favicon.svg">
+    <title>HOME</title>
+    <link href="./src/output.css" rel="stylesheet">
+</head>
+
+<body class="bg-[#0C0B0B] font-poppins">
+    <div class="font-poppins bg-[url(/assets/images/bg1.png)] bg-center bg-cover">
+        <header
+            class=" bg-black/75 h-[clamp(60px,6.94vw,100px)] backdrop:blur-lg bg-black-blur flex items-center bg-[url(assets/images/header-bg.webp)] bg-repeat w-full px-4">
+            <div class="container max-w-330 w-full mx-auto">
+                <nav class="nav-bar relative flex w-full items-center justify-between py-[clamp(10px,1.6vw,23px)]">
+                    <div class="nav-left">
+                        <a href="#">
+                            <p class="logo font-normal text-4xl leading-150 text-white">Saint<span
+                                    class="text-sed-orange font-bold">Shiba</span></p>
+                        </a>
+                    </div>
+
+                    <input type="checkbox" id="menu-connect" class="peer hidden" />
+
+                    <label for="menu-connect"
+                        class="menu-button relative z-60 flex h-5 w-5 cursor-pointer flex-col justify-between xl:hidden [&>span]:block [&>span]:h-0.5 [&>span]:w-5 [&>span]:rounded [&>span]:bg-white [&>span]:transition-all [&>span]:duration-500 [&>span]:ease-in-out peer-checked:[&>span:nth-child(1)]:translate-y-custom-9 peer-checked:[&>span:nth-child(1)]:rotate-45 peer-checked:[&>span:nth-child(2)]:scale-0 peer-checked:[&>span:nth-child(2)]:opacity-0 peer-checked:[&>span:nth-child(3)]:-translate-y-custom-9 peer-checked:[&>span:nth-child(3)]:-rotate-45">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
+
+                    <div
+                        class="right fixed top-0 right-0 z-50 flex h-full w-[70vw] flex-col items-center justify-center gap-[32px] px-5 shadow-2xl invisible pointer-events-none translate-x-full opacity-0 transition-all duration-300 ease-in-out peer-checked:translate-x-0 peer-checked:visible peer-checked:pointer-events-auto peer-checked:opacity-100 max-xl:bg-black xl:static xl:z-auto xl:flex-row xl:items-center xl:gap-[38px] xl:w-auto xl:h-auto xl:p-0 xl:bg-transparent xl:shadow-none xl:translate-x-0 xl:visible xl:pointer-events-auto xl:opacity-100">
+                        <div class="items flex flex-col items-center gap-[32px] xl:flex-row">
+                            <div class="right-item">
+                                <a class="relative inline-block text-lg text-white transition-all duration-500 hover:bg-orange-gradient hover:bg-clip-text hover:text-transparent hover:[-webkit-text-stroke:0.5px_#FFA800] after:absolute after:bottom-[-2px] after:left-0 after:h-[2px] after:w-0 after:bg-gradient-to-r after:from-[#FFA800] after:to-[#F06500] after:transition-all after:duration-500 after:ease-out hover:after:w-full"
+                                    href="">
+                                    Home
+                                </a>
+                            </div>
+                            <div class="right-item">
+                                <a class="relative inline-block text-lg text-white transition-all duration-500 hover:bg-orange-gradient hover:bg-clip-text hover:text-transparent hover:[-webkit-text-stroke:0.5px_#FFA800] after:absolute after:bottom-[-2px] after:left-0 after:h-[2px] after:w-0 after:bg-gradient-to-r after:from-[#FFA800] after:to-[#F06500] after:transition-all after:duration-500 after:ease-out hover:after:w-full"
+                                    href="">
+                                    About
+                                </a>
+                            </div>
+                            <div class="right-item">
+                                <a class="relative inline-block text-lg text-white transition-all duration-500 hover:bg-orange-gradient hover:bg-clip-text hover:text-transparent hover:[-webkit-text-stroke:0.5px_#FFA800] after:absolute after:bottom-[-2px] after:left-0 after:h-[2px] after:w-0 after:bg-gradient-to-r after:from-[#FFA800] after:to-[#F06500] after:transition-all after:duration-500 after:ease-out hover:after:w-full"
+                                    href="">
+                                    Takenomics
+                                </a>
+                            </div>
+                            <div class="right-item">
+                                <a class="relative inline-block text-nowrap text-lg text-white transition-all duration-500 hover:bg-orange-gradient hover:bg-clip-text hover:text-transparent hover:[-webkit-text-stroke:0.5px_#FFA800] after:absolute after:bottom-[-2px] after:left-0 after:h-[2px] after:w-0 after:bg-gradient-to-r after:from-[#FFA800] after:to-[#F06500] after:transition-all after:duration-500 after:ease-out hover:after:w-full"
+                                    href="">
+                                    How to buy
+                                </a>
+                            </div>
+                            <div class="right-item">
+                                <a class="relative inline-block text-nowrap text-lg text-white transition-all duration-500 hover:bg-orange-gradient hover:bg-clip-text hover:text-transparent hover:[-webkit-text-stroke:0.5px_#FFA800] after:absolute after:bottom-[-2px] after:left-0 after:h-[2px] after:w-0 after:bg-gradient-to-r after:from-[#FFA800] after:to-[#F06500] after:transition-all after:duration-500 after:ease-out hover:after:w-full"
+                                    href="">
+                                    FAQ
+                                </a>
+                            </div>
+                        </div>
+
+                        <button
+                            class="group text-nowrap cursor-pointer relative h-[46px] max-w-[188px] overflow-hidden rounded-[23px] bg-orange-gradient px-[23px] py-[7px] text-lg font-semibold leading-100 text-white transition-all duration-500">
+                            <span
+                                class="absolute left-1/2 top-1/2 h-0 w-0 -translate-x-1/2 -translate-y-1/2 rounded-full bg-amber-gradient opacity-0 transition-all duration-500 ease-out group-hover:h-45 group-hover:w-47.5 group-hover:opacity-100"></span>
+
+                            <span class="relative z-10"> Connect Wallet </span>
+                        </button>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <section class=" hero mt-14.75 container-section">
+            <div class=" flex xl:gap-23.75 max-xl:flex-col-reverse max-xl:items-center">
+                <div class="hero-left mt-5 xl:mt-42 xl:max-w-165 w-full text-white">
+                    <h1 class="hero_heading text-5xl xl:text-8xl font-bold">Accumsan ut orci vitae</h1>
+                    <p class="font-normal text-[22px] mt-6 mb-custom-50">Velit eget sit nibh fringilla risus
+                        ullamcorper malesuada. Morbi nulla suscipit dolor, volutpat quam at urna donec rutrum. In
+                        vulputate congue arcu in
+                        et.</p>
+                    <button
+                        class="py-3 px-8 cursor-pointer leading-178 text-white text-lg font-semibold rounded-[33px] "
+                        style="background: linear-gradient(90deg, #FFA800 0%, #F06500 100%);">
+                        Connect Wallet
+                    </button>
+                </div>
+                <div class="hero-right">
+                    <img src="assets/images/hero_img.png" alt="hero_img" width="565" height="841">
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <section class="info container-section mb-14.5">
+        <div
+            class="max-xl:mt-3 max-lg:-mt-26.75 -mt-26.75 border rounded-custom p-6 border-[#2C2826] bg-main-gradient max-w-330 mx-auto backdrop-blur-[32px]">
+            <h1 class="font-semibold text-3xl lg:text-5xl text-white leading-127 mb-6">
+                Cursus ligula habitant sed integer.
+            </h1>
+            <p class="font-normal text-base md:text-lg text-white leading-178 mb-0">
+                Urna, dictum volutpat augue tortor. Fermentum vulputate convallis viverra facilisis. Aliquam
+                porttitor sem rhoncus rhoncus, quis. Arcu, ut enim eget pellentesque neque. Nibh
+                pellentesquelobortis etiam sed. Cursus donec porttitor fames tellus. At ut donec nec aliquet ipsum
+                leo tellus amet lacus. Varius mi urna blandit id magna tellus imperdiet tortor. Volutpat nec
+                vulputate diam tristique facilisi in turpis vel elit.
+            </p>
+            <p class="font-normal text-lg text-white leading-178">
+                Urna, dictum volutpat augue tortor. Fermentum vulputate convallis viverra facilisis. Aliquam
+                porttitor sem rhoncus rhoncus, quis. Arcu, ut enim eget pellentesque neque. Nibh pellentesque
+                lobortis etiam sed. Cursus donec porttitor fames tellus. At ut donec nec aliquet ipsum leo tellus
+                amet lacus. Varius mi urna blandit id magna tellus imperdiet tortor. Volutpat nec vulputate diam
+                tristique facilisi in turpis vel elit.
+            </p>
+        </div>
+    </section>
+    <section class="container-section gap-custom-55 flex max-xl:flex-col-reverse max-lg:mb-5">
+        <div class="left mt-5 xl:mt-46.25 max-w-165">
+            <h1 class="font-semibold text-5xl text-white mb-6 leading-127">
+                Cursus ligula habitant sed integer.
+            </h1>
+            <p class="font-normal leading-178 text-lg text-white mb-8">Urna, dictum volutpat augue tortor. Fermentum
+                vulputate
+                convallis viverra facilisis. Aliquam porttitor sem rhoncus rhoncus, quis. Arcu, ut enim eget
+                pellentesque neque. Nibh pellentesque lobortis etiam sed. Cursus donec porttitor fames tellus.
+            </p>
+            <button
+                class="py-[7px] px-[23px] cursor-pointer leading-178 text-white text-lg font-semibold rounded-[33px] "
+                style="background: linear-gradient(90deg, #FFA800 0%, #F06500 100%);">
+                Connect Wallet
+            </button>
+        </div>
+        <div class="right">
+            <img src="assets/images/fox.png" alt="fox_img" width="551" height="722">
+        </div>
+    </section>
+    <section class="buy overflow-hidden text-white bg-[#1D1A1A] max-xl:p-4">
+        <div class=" flex gap-custom-55 2xl:ms-75 mt-5 lg:mt-22.25 mb-21.75 flex-col">
+            <div class="buy-left max-w-165 mt-8.25">
+                <h1 class="font-bold text-5xl mb-6">
+                    How to Buy
+                </h1>
+                <p class="font-normal text-lg mb-12">
+                    Urna, dictum volutpat augue tortor. Fermentum vulputate convallis viverra facilisis. Aliquam
+                    porttitor sem rhoncus rhoncus, quis. Arcu, ut enim eget pellentesque neque. Nibh pellentesque
+                    lobortis etiam sed. Cursus donec porttitor fames tellus.
+                </p>
+                <div class="buy-list">
+                    <div class="flex flex-col gap-4 w-full ">
+                        <div
+                            class="first_list flex py-2.5 ps-custom-13 bg-[#151313] hover:bg-[#0C0B0B] transition-transform duration-300 gap-5.75 rounded-[46px] cursor-pointer group mb-4">
+                            <div
+                                class="bg-white rounded-full size-17.75 group-hover:bg-[linear-gradient(90deg,#FFA800_0%,#F06500_100%)] transition-transform duration-300 flex-center text-black group-hover:text-white font-semibold text-[22px]">
+                                1
+                            </div>
+                            <div class="head_about">
+                                <p class="head font-semibold text-[22px]">Cras nunc libero ac</p>
+                                <p class="about font-normal text-lg leading-178">
+                                    Amet, integer et ultrices non viverra dolor dui
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div
+                        class="first_list flex py-2.5 ps-custom-13 bg-[#151313] hover:bg-[#0C0B0B] transition-transform duration-300 gap-5.75 rounded-[46px] cursor-pointer group mb-4">
+                        <div
+                            class="bg-white rounded-full size-17.75 group-hover:bg-[linear-gradient(90deg,#FFA800_0%,#F06500_100%)] transition-transform duration-300 flex-center text-black group-hover:text-white font-semibold text-[22px]">
+                            2
+                        </div>
+                        <div class="head_about">
+                            <p class="head font-semibold text-[22px]">Cras nunc libero ac</p>
+                            <p class="about font-normal text-lg leading-178">
+                                Amet, integer et ultrices non viverra dolor dui
+                            </p>
+                        </div>
+                    </div>
+
+                    <div
+                        class="first_list flex py-2.5 ps-custom-13 bg-[#151313] hover:bg-[#0C0B0B] transition-transform duration-300 gap-5.75 rounded-[46px] cursor-pointer group">
+                        <div
+                            class="bg-white rounded-full size-17.75 group-hover:bg-[linear-gradient(90deg,#FFA800_0%,#F06500_100%)] transition-transform duration-300 flex-center text-black group-hover:text-white font-semibold text-[22px]">
+                            3
+                        </div>
+                        <div class="head_about">
+                            <p class="head font-semibold text-[22px]">Cras nunc libero ac</p>
+                            <p class="about font-normal text-lg leading-178">
+                                Amet, integer et ultrices non viverra dolor dui
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="buy-right">
+                <div class="img ">
+                    <img class=" top-0" src="assets/images/buy-section-img.png" alt="dashboard_img" width="905"
+                        height="636">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="min-h-fit xl:min-h-[3428px] overflow-hidden bg-[#0C0B0B]">
+        <div class="container mx-auto w-full max-w-330 px-4">
+            <div class="row pt-15 z-50 lg:pt-15.5">
+                <h1 class="heading text-center text-[clamp(30px,3.33vw,48px)] font-semibold leading-128 text-white">
+                    Takenomics
+                </h1>
+                <div class="cards mt-8 mb-5.5 flex flex-wrap xl:flex-nowrap justify-center gap-5">
+                    <div
+                        class="card cursor-pointer group max-w-106 rounded-custom border border-border-gray bg-main-gradient px-5 pt-4 pb-5.5 backdrop-blur-[32px] xl:min-w-106">
+                        <h1 class="mb-4 max-w-22.5 text-[22px] font-normal leading-150 text-white">
+                            Liquidity
+                        </h1>
+
+                        <div class="flex items-center gap-[clamp(30px,7.36vw,106px)]">
+                            <div class="buying">
+                                <h1 class="text-[14px] font-normal leading-180 text-white opacity-70">
+                                    When Buying
+                                </h1>
+
+                                <h2
+                                    class="font-semibold text-[28px] leading-150 text-white transition-all duration-300 ease-out group-hover:text-orange">
+                                    3-5%
+                                </h2>
+                            </div>
+
+                            <div class="selling mt-1">
+                                <h1 class="text-[14px] font-normal leading-180 text-white opacity-70">
+                                    When Selling
+                                </h1>
+
+                                <h2
+                                    class="font-semibold text-[28px] leading-150 text-white transition-all duration-300 ease-out group-hover:text-orange">
+                                    3-5%
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="card cursor-pointer group max-w-106 rounded-custom border border-border-gray bg-main-gradient px-5 pt-4 pb-5.5 backdrop-blur-[32px] xl:min-w-106">
+                        <h1 class="mb-4 max-w-22.5 text-[22px] font-normal leading-150 text-white">
+                            Marketing
+                        </h1>
+
+                        <div class="flex items-center gap-[clamp(30px,7.36vw,106px)]">
+                            <div class="buying">
+                                <h1 class="text-[14px] font-normal leading-180 text-white opacity-70">
+                                    When Buying
+                                </h1>
+
+                                <h2
+                                    class="font-semibold text-[28px] leading-150 text-white transition-all duration-300 ease-out group-hover:text-orange">
+                                    3-5%
+                                </h2>
+                            </div>
+
+                            <div class="selling mt-1">
+                                <h1 class="text-[14px] font-normal leading-180 text-white opacity-70">
+                                    When Selling
+                                </h1>
+
+                                <h2
+                                    class="font-semibold text-[28px] leading-150 text-white transition-all duration-300 ease-out group-hover:text-orange">
+                                    3-5%
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="card cursor-pointer group max-w-106 rounded-custom border border-border-gray bg-main-gradient px-5 pt-4 pb-5.5 backdrop-blur-[32px] xl:min-w-106">
+                        <h1 class="mb-4 max-w-22.5 text-[22px] font-normal leading-150 text-white">
+                            Rewards
+                        </h1>
+
+                        <div class="flex items-center gap-[clamp(30px,7.36vw,106px)]">
+                            <div class="buying">
+                                <h1 class="text-[14px] font-normal leading-180 text-white opacity-70">
+                                    When Buying
+                                </h1>
+
+                                <h2
+                                    class="font-semibold text-[28px] leading-150 text-white transition-all duration-300 ease-out group-hover:text-orange">
+                                    3-5%
+                                </h2>
+                            </div>
+
+                            <div class="selling mt-1">
+                                <h1 class="text-[14px] font-normal leading-180 text-white opacity-70">
+                                    When Selling
+                                </h1>
+
+                                <h2
+                                    class="font-semibold text-[28px] leading-150 text-white transition-all duration-300 ease-out group-hover:text-orange">
+                                    3-5%
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="data-content mx-5 max-w-330 rounded-custom border border-border-gray bg-main-gradient backdrop-blur-[32px] lg:mx-auto">
+                    <div
+                        class="flex max-w-330 flex-wrap items-center justify-center px-5 py-[40px] sm:justify-between sm:pt-16.75 sm:pb-17.5 lg:pl-16.5 lg:pr-24.25 border border-[rgba(80,79,79,1)] border-b-0">
+                        <div class="flex flex-col items-center justify-center sm:flex-row sm:items-start max-xl:flex-wrap">
+                            <img width="361" height="361" class="size-50 object-cover size-90.25 lg:mr-39.25"
+                                src="./assets/images/circle_img.png" alt="data">
+
+                            <div class="colors mx-auto my-custom-30 max-w-75.75">
+                                <div
+                                    class="mb-3.75 flex w-100 max-w-75.75 items-center justify-center gap-3.75 md:gap-custom-25">
+                                    <img width="50" height="50" class="size-custom-30 md:size-custom-50"
+                                        src="./assets/images/cyan.webp" alt="cyan-color">
+
+                                    <h1 class="text-[18px] font-semibold leading-180 text-white lg:min-w-57">
+                                        Sed sem
+                                    </h1>
+                                </div>
+
+                                <div
+                                    class="mb-3.75 flex w-100 max-w-75.75 items-center justify-center gap-3.75 md:gap-custom-25">
+                                    <img width="50" height="50" class="size-custom-30 md:size-custom-50"
+                                        src="./assets/images/orange.webp" alt="orange-color">
+
+                                    <h1 class="text-[18px] font-semibold leading-180 text-white lg:min-w-57">
+                                        Sed sem
+                                    </h1>
+                                </div>
+
+                                <div
+                                    class="mb-3.75 flex w-100 max-w-75.75 items-center justify-center gap-3.75 md:gap-custom-25">
+                                    <img width="50" height="50" class="size-custom-30 md:size-custom-50"
+                                        src="./assets/images/purple.webp" alt="purple-color">
+
+                                    <h1 class="text-[18px] font-semibold leading-180 text-white lg:min-w-57">
+                                        Sed sem
+                                    </h1>
+                                </div>
+
+                                <div
+                                    class="mb-3.75 flex w-100 max-w-75.75 items-center justify-center gap-3.75 md:gap-custom-25">
+                                    <img width="50" height="50" class="size-custom-30 md:size-custom-50"
+                                        src="./assets/images/blue.webp" alt="blue-color">
+
+                                    <h1 class="text-[18px] font-semibold leading-180 text-white lg:min-w-57">
+                                        Sed sem
+                                    </h1>
+                                </div>
+
+                                <div
+                                    class="mb-3.75 flex w-100 max-w-75.75 items-center justify-center gap-3.75 md:gap-custom-25">
+                                    <img width="50" height="50" class="size-custom-30 md:size-custom-50"
+                                        src="./assets/images/yellow.webp" alt="yellow-color">
+
+                                    <h1 class="text-[18px] font-semibold leading-180 text-white lg:min-w-57">
+                                        Sed sem
+                                    </h1>
+                                </div>
+
+                                <div
+                                    class="mb-3.75 flex w-100 max-w-75.75 items-center justify-center gap-3.75 md:gap-custom-25">
+                                    <img width="50" height="50" class="size-custom-30 md:size-custom-50"
+                                        src="./assets/images/pink.webp" alt="pink-color">
+
+                                    <h1 class="text-[18px] font-semibold leading-180 text-white lg:min-w-57">
+                                        Sed sem
+                                    </h1>
+                                </div>
+                            </div>
+                            <img width="315" height="437" src="./assets/images/fox.webp" alt="shibba">
+                        </div>
+
+                    </div>
+
+                    <div class="overflow-x-scroll overflow-hidden">
+                        <table class="w-100 min-w-225 lg:min-w-330" cellpadding="0" cellspacing="0">
+                            <thead class="bg-[#0C0C0C] ">
+                                <tr>
+                                    <th class="min-w-[80px] w-100"></th>
+
+                                    <th
+                                        class="pt-3.5 pb-5.5 text-[16px] font-semibold leading-180 text-white sm:text-[18px]">
+                                        Token
+                                    </th>
+
+                                    <th
+                                        class="pt-3.5 pb-5.5 text-[16px] font-semibold leading-180 text-white sm:text-[18px]">
+                                        Percentage
+                                    </th>
+
+                                    <th
+                                        class="pt-3.5 pb-5.5 text-[16px] font-semibold leading-180 text-white sm:text-[18px]">
+                                        Token Price
+                                    </th>
+
+                                    <th
+                                        class="pt-3.5 pb-5.5 text-[16px] font-semibold leading-180 text-white sm:text-[18px]">
+                                        Token Price
+                                    </th>
+
+                                    <th
+                                        class="pt-3.5 pb-5.5 text-[16px] font-semibold leading-180 text-white sm:text-[18px]">
+                                        Total Amount
+                                    </th>
+                                </tr>
+                            </thead>
+
+                            <tbody class="border border-[rgba(80,79,79,1)] border-t-0">
+                                <tr>
+                                    <td
+                                        class="pt-custom-17 pb-7 text-center text-[16px] font-normal leading-180 text-white sm:text-[18px]">
+                                        Seddigq
+                                    </td>
+
+                                    <td
+                                        class="pt-custom-17 pb-7 text-center text-[16px] font-normal leading-180 text-white opacity-70 sm:text-[18px]">
+                                        1,00,000
+                                    </td>
+
+                                    <td
+                                        class="pt-custom-17 pb-7 text-center text-[16px] font-normal leading-180 text-white opacity-70 sm:text-[18px]">
+                                        12%
+                                    </td>
+
+                                    <td
+                                        class="pt-custom-17 pb-7 text-center text-[16px] font-normal leading-180 text-white opacity-70 sm:text-[18px]">
+                                        58.3
+                                    </td>
+
+                                    <td
+                                        class="pt-custom-17 pb-7 text-center text-[16px] font-normal leading-180 text-white opacity-70 sm:text-[18px]">
+                                        12%
+                                    </td>
+
+                                    <td
+                                        class="pt-custom-17 pb-7 text-center text-[16px] font-normal leading-180 text-white opacity-70 sm:text-[18px]">
+                                        10% Monthly
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td
+                                        class="pb-7 text-center text-[16px] font-normal leading-180 text-white sm:text-[18px]">
+                                        Seddigq
+                                    </td>
+
+                                    <td
+                                        class="pb-7 text-center text-[16px] font-normal leading-180 text-white opacity-70 sm:text-[18px]">
+                                        1,00,000
+                                    </td>
+
+                                    <td
+                                        class="pb-7 text-center text-[16px] font-normal leading-180 text-white opacity-70 sm:text-[18px]">
+                                        12%
+                                    </td>
+
+                                    <td
+                                        class="pb-7 text-center text-[16px] font-normal leading-180 text-white opacity-70 sm:text-[18px]">
+                                        58.3
+                                    </td>
+
+                                    <td
+                                        class="pb-7 text-center text-[16px] font-normal leading-180 text-white opacity-70 sm:text-[18px]">
+                                        12%
+                                    </td>
+
+                                    <td
+                                        class="pb-7 text-center text-[16px] font-normal leading-180 text-white opacity-70 sm:text-[18px]">
+                                        10% Monthly
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td
+                                        class="pb-7 text-center text-[16px] font-normal leading-180 text-white sm:text-[18px]">
+                                        Seddigq
+                                    </td>
+
+                                    <td
+                                        class="pb-7 text-center text-[16px] font-normal leading-180 text-white opacity-70 sm:text-[18px]">
+                                        1,00,000
+                                    </td>
+
+                                    <td
+                                        class="pb-7 text-center text-[16px] font-normal leading-180 text-white opacity-70 sm:text-[18px]">
+                                        12%
+                                    </td>
+
+                                    <td
+                                        class="pb-7 text-center text-[16px] font-normal leading-180 text-white opacity-70 sm:text-[18px]">
+                                        58.3
+                                    </td>
+
+                                    <td
+                                        class="pb-7 text-center text-[16px] font-normal leading-180 text-white opacity-70 sm:text-[18px]">
+                                        12%
+                                    </td>
+
+                                    <td
+                                        class="pb-7 text-center text-[16px] font-normal leading-180 text-white opacity-70 sm:text-[18px]">
+                                        10% Monthly
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td
+                                        class="pb-7 text-center text-[16px] font-normal leading-180 text-white sm:text-[18px]">
+                                        Seddigq
+                                    </td>
+
+                                    <td
+                                        class="pb-7 text-center text-[16px] font-normal leading-180 text-white opacity-70 sm:text-[18px]">
+                                        1,00,000
+                                    </td>
+
+                                    <td
+                                        class="pb-7 text-center text-[16px] font-normal leading-180 text-white opacity-70 sm:text-[18px]">
+                                        12%
+                                    </td>
+
+                                    <td
+                                        class="pb-7 text-center text-[16px] font-normal leading-180 text-white opacity-70 sm:text-[18px]">
+                                        58.3
+                                    </td>
+
+                                    <td
+                                        class="pb-7 text-center text-[16px] font-normal leading-180 text-white opacity-70 sm:text-[18px]">
+                                        12%
+                                    </td>
+
+                                    <td
+                                        class="pb-7 text-center text-[16px] font-normal leading-180 text-white opacity-70 sm:text-[18px]">
+                                        10% Monthly
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td
+                                        class="pb-7 text-center text-[16px] font-normal leading-180 text-white sm:text-[18px]">
+                                        Seddigq
+                                    </td>
+
+                                    <td
+                                        class="pb-7 text-center text-[16px] font-normal leading-180 text-white opacity-70 sm:text-[18px]">
+                                        1,00,000
+                                    </td>
+
+                                    <td
+                                        class="pb-7 text-center text-[16px] font-normal leading-180 text-white opacity-70 sm:text-[18px]">
+                                        12%
+                                    </td>
+
+                                    <td
+                                        class="pb-7 text-center text-[16px] font-normal leading-180 text-white opacity-70 sm:text-[18px]">
+                                        58.3
+                                    </td>
+
+                                    <td
+                                        class="pb-7 text-center text-[16px] font-normal leading-180 text-white opacity-70 sm:text-[18px]">
+                                        12%
+                                    </td>
+
+                                    <td
+                                        class="pb-7 text-center text-[16px] font-normal leading-180 text-white opacity-70 sm:text-[18px]">
+                                        10% Monthly
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td
+                                        class="pb-8 text-center text-[16px] font-normal leading-180 text-white sm:text-[18px]">
+                                        Seddigq
+                                    </td>
+
+                                    <td
+                                        class="pb-8 text-center text-[16px] font-normal leading-180 text-white opacity-70 sm:text-[18px]">
+                                        1,00,000
+                                    </td>
+
+                                    <td
+                                        class="pb-8 text-center text-[16px] font-normal leading-180 text-white opacity-70 sm:text-[18px]">
+                                        12%
+                                    </td>
+
+                                    <td
+                                        class="pb-8 text-center text-[16px] font-normal leading-180 text-white opacity-70 sm:text-[18px]">
+                                        58.3
+                                    </td>
+
+                                    <td
+                                        class="pb-8 text-center text-[16px] font-normal leading-180 text-white opacity-70 sm:text-[18px]">
+                                        12%
+                                    </td>
+
+                                    <td
+                                        class="pb-8 text-center text-[16px] font-normal leading-180 text-white opacity-70 sm:text-[18px]">
+                                        10% Monthly
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-14.75 z-50">
+                <h1 class="heading text-white text-center text-[clamp(30px,3.33vw,48px)] font-semibold leading-128">
+                    Roadmap
+                </h1>
+                <div class="roadmap">
+                    <div class="big-card relative mt-[clamp(30px,4.1vw,59px)] w-full max-[1281px]:pl-10">
+                        <div
+                            class="circle absolute left-1/2 z-10 size-9 -translate-x-1/2 rounded-full bg-orange-gradient max-[1281px]:left-[-1%] max-[1281px]:translate-x-[1%] max-[376px]:left-[-2%]">
+                        </div>
+
+                        <div
+                            class="card w-full max-w-142 rounded-custom bg-transparent pr-custom-25 max-[1281px]:max-w-full">
+                            <h1
+                                class="card-heading text-[clamp(24px,2.5vw,36px)] font-bold text-left leading-150 xl:text-right text-white">
+                                Phase-1
+                            </h1>
+                            <p
+                                class="para text-[clamp(14px,1.25vw,18px)] text-white opacity-70 leading-180 text-left xl:text-right mt-2">
+                                Massa pellentesque sagittis <br>
+                                Aliquam sed in odio. <br>
+                                Turpis blandit at interdum <br>
+                                Eget tempus nulla tempus arcu.
+                            </p>
+                        </div>
+
+                        <div
+                            class="absolute top-custom-30 left-1/2 z-0 h-[calc(100%+97px)] w-1.25 -translate-x-1/2 bg-white max-[1281px]:left-0 max-[1281px]:translate-x-0 max-[992px]:left-2 max-[680px]:left-2">
+                        </div>
+                    </div>
+
+                    <div
+                        class="big-card relative mt-4 flex w-full justify-end pl-0 max-[1281px]:justify-start max-[1281px]:pl-10">
+                        <div
+                            class="circle absolute left-1/2 z-10 size-9 -translate-x-1/2 rounded-full bg-orange-gradient max-[1281px]:left-[-1%] max-[1281px]:translate-x-[1%] max-[376px]:left-[-2%]">
+                        </div>
+                        <div
+                            class="card w-full max-w-142 rounded-custom bg-transparent xl:pl-custom-25 max-[1281px]:max-w-full">
+                            <h1
+                                class="card-heading text-[clamp(24px,2.5vw,36px)] leading-150 font-bold text-left text-white">
+                                Phase-2
+                            </h1>
+                            <p
+                                class="para text-[clamp(14px,1.25vw,18px)] leading-180 text-white opacity-70 text-left mt-2">
+                                Massa pellentesque sagittis <br>
+                                Aliquam sed in odio. <br>
+                                Turpis blandit at interdum <br>
+                                Eget tempus nulla tempus arcu.
+                            </p>
+                        </div>
+
+                        <div
+                            class="absolute top-custom-30 left-1/2 z-0 h-[calc(100%+28px)] w-1.25 -translate-x-1/2 bg-white max-[1281px]:left-0 max-[1281px]:translate-x-0 max-[992px]:left-2 max-[680px]:left-2">
+                        </div>
+                    </div>
+
+                    <div class="big-card relative mt-4 w-full max-[1281px]:pl-10">
+                        <div
+                            class="circle absolute left-1/2 z-10 size-9 -translate-x-1/2 rounded-full bg-orange-gradient max-[1281px]:left-[-1%] max-[1281px]:translate-x-[1%] max-[376px]:left-[-2%]">
+                        </div>
+
+                        <div
+                            class="card w-full max-w-142 rounded-custom bg-transparent pr-custom-25 max-[1281px]:max-w-full">
+                            <h1
+                                class="card-heading text-[clamp(24px,2.5vw,36px)] font-bold leading-150 text-left xl:text-right text-white">
+                                Phase-3
+                            </h1>
+                            <p
+                                class="para text-[clamp(14px,1.25vw,18px)] text-white opacity-70 leading-180 text-left xl:text-right mt-2">
+                                Massa pellentesque sagittis <br>
+                                Aliquam sed in odio. <br>
+                                Turpis blandit at interdum <br>
+                                Eget tempus nulla tempus arcu.
+                            </p>
+                        </div>
+                        <div
+                            class="absolute top-custom-30 left-1/2 z-0 h-[calc(100%+20px)] w-1.25 -translate-x-1/2 bg-white max-[1281px]:left-0 max-[1281px]:translate-x-0 max-[992px]:left-2 max-[680px]:left-2">
+                        </div>
+                    </div>
+                    <div
+                        class="big-card relative mt-4 flex w-full justify-end pl-0 max-[1281px]:justify-start max-[1281px]:pl-10">
+                        <div
+                            class="circle absolute left-1/2 z-10 size-9 -translate-x-1/2 rounded-full bg-orange-gradient max-[1281px]:left-[-1%] max-[1281px]:translate-x-[1%] max-[376px]:left-[-2%]">
+                        </div>
+                        <div
+                            class="card w-full max-w-142 rounded-custom bg-transparent xl:pl-custom-25 max-[1281px]:max-w-full">
+                            <h1
+                                class="card-heading text-[clamp(24px,2.5vw,36px)] font-bold text-left leading-150 text-white">
+                                Phase-4
+                            </h1>
+                            <p
+                                class="para text-[clamp(14px,1.25vw,18px)] text-white opacity-70 text-left leading-180 mt-2">
+                                Massa pellentesque sagittis <br>
+                                Aliquam sed in odio. <br>
+                                Turpis blandit at interdum <br>
+                                Eget tempus nulla tempus arcu.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row py-15 z-50 lg:py-0 lg:pt-custom-73">
+                <h1 class="heading text-center text-[clamp(30px,3.33vw,48px)] text-white font-semibold">
+                    FAQ
+                </h1>
+                <div class="accordions flex flex-col mt-[clamp(24px,2.22vw,32px)] gap-2">
+                    <div
+                        class="w-full bg-main-gradient border border-solid border-gray rounded-custom backdrop-blur-[32px] p-4">
+                        <input type="checkbox" id="accordion-toggle-1" class="peer hidden">
+
+                        <label for="accordion-toggle-1"
+                            class="flex items-center justify-between list-none cursor-pointer select-none">
+                            <span class="heading text-[clamp(16px,1.53vw,22px)] leading-150 text-white font-semibold">
+                                Volutpat consequat dictumst vel donec.
+                            </span>
+
+                            <span class="transition-transform duration-500 [input:checked~label_&amp;]:rotate-180">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M16.293 9.29297L12 13.586L7.70697 9.29297L6.29297 10.707L12 16.414L17.707 10.707L16.293 9.29297Z"
+                                        fill="white"></path>
+                                </svg>
+                            </span>
+                        </label>
+
+                        <div
+                            class="grid grid-rows-[0fr] transition-[grid-template-rows] duration-500 ease-in-out peer-checked:grid-rows-[1fr]">
+                            <div class="overflow-hidden">
+                                <p class="para pt-6 text-white opacity-70 text-[clamp(14px,1.5vw,18px)] leading-180">
+                                    Amet vitae hendrerit facilisi gravida. Nascetur sed luctus
+                                    sit elit in mi orci. Aliquet ullamcorper quis felis at
+                                    scelerisque non faucibus. Amet vitae hendrerit facilisi
+                                    gravida. Nascetur sed luctus sit elit in mi orci. Aliquet
+                                    ullamcorper quis felis at scelerisque non faucibus.Amet
+                                    vitae hendrerit facilisi gravida. Nascetur sed luctus sit
+                                    elit in mi orci. Aliquet ullamcorper quis felis at
+                                    scelerisque non faucibus.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="w-full bg-main-gradient border border-solid border-gray rounded-custom backdrop-blur-[32px] p-4">
+                        <input type="checkbox" id="accordion-toggle-2" class="peer hidden" checked="">
+
+                        <label for="accordion-toggle-2"
+                            class="flex items-center justify-between list-none cursor-pointer select-none">
+                            <span class="heading text-[clamp(16px,1.53vw,22px)] leading-150 text-white font-semibold">
+                                Volutpat consequat dictumst vel donec.
+                            </span>
+
+                            <span class="transition-transform duration-500 [input:checked~label_&amp;]:rotate-180">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M16.293 9.29297L12 13.586L7.70697 9.29297L6.29297 10.707L12 16.414L17.707 10.707L16.293 9.29297Z"
+                                        fill="white"></path>
+                                </svg>
+                            </span>
+                        </label>
+
+                        <div
+                            class="grid grid-rows-[0fr] transition-[grid-template-rows] duration-500 ease-in-out peer-checked:grid-rows-[1fr]">
+                            <div class="overflow-hidden">
+                                <p class="para pt-6 text-white opacity-70 text-[clamp(14px,1.5vw,18px)] leading-180">
+                                    Amet vitae hendrerit facilisi gravida. Nascetur sed luctus
+                                    sit elit in mi orci. Aliquet ullamcorper quis felis at
+                                    scelerisque non faucibus. Amet vitae hendrerit facilisi
+                                    gravida. Nascetur sed luctus sit elit in mi orci. Aliquet
+                                    ullamcorper quis felis at scelerisque non faucibus.Amet
+                                    vitae hendrerit facilisi gravida. Nascetur sed luctus sit
+                                    elit in mi orci. Aliquet ullamcorper quis felis at
+                                    scelerisque non faucibus.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="w-full bg-main-gradient border border-solid border-gray rounded-custom backdrop-blur-[32px] p-4">
+                        <input type="checkbox" id="accordion-toggle-3" class="peer hidden">
+
+                        <label for="accordion-toggle-3"
+                            class="flex items-center justify-between list-none cursor-pointer select-none">
+                            <span class="heading text-[clamp(16px,1.53vw,22px)] leading-150 text-white font-semibold">
+                                Volutpat consequat dictumst vel donec.
+                            </span>
+
+                            <span class="transition-transform duration-500 [input:checked~label_&amp;]:rotate-180">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M16.293 9.29297L12 13.586L7.70697 9.29297L6.29297 10.707L12 16.414L17.707 10.707L16.293 9.29297Z"
+                                        fill="white"></path>
+                                </svg>
+                            </span>
+                        </label>
+
+                        <div
+                            class="grid grid-rows-[0fr] transition-[grid-template-rows] duration-500 ease-in-out peer-checked:grid-rows-[1fr]">
+                            <div class="overflow-hidden">
+                                <p class="para pt-6 text-white opacity-70 text-[clamp(14px,1.5vw,18px)] leading-180">
+                                    Amet vitae hendrerit facilisi gravida. Nascetur sed luctus
+                                    sit elit in mi orci. Aliquet ullamcorper quis felis at
+                                    scelerisque non faucibus. Amet vitae hendrerit facilisi
+                                    gravida. Nascetur sed luctus sit elit in mi orci. Aliquet
+                                    ullamcorper quis felis at scelerisque non faucibus.Amet
+                                    vitae hendrerit facilisi gravida. Nascetur sed luctus sit
+                                    elit in mi orci. Aliquet ullamcorper quis felis at
+                                    scelerisque non faucibus.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="w-full bg-main-gradient border border-solid border-gray rounded-custom backdrop-blur-[32px] p-4">
+                        <input type="checkbox" id="accordion-toggle-4" class="peer hidden">
+
+                        <label for="accordion-toggle-4"
+                            class="flex items-center justify-between list-none cursor-pointer select-none">
+                            <span class="heading text-[clamp(16px,1.53vw,22px)] leading-150 text-white font-semibold">
+                                Volutpat consequat dictumst vel donec.
+                            </span>
+
+                            <span class="transition-transform duration-500 [input:checked~label_&amp;]:rotate-180">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M16.293 9.29297L12 13.586L7.70697 9.29297L6.29297 10.707L12 16.414L17.707 10.707L16.293 9.29297Z"
+                                        fill="white"></path>
+                                </svg>
+                            </span>
+                        </label>
+
+                        <div
+                            class="grid grid-rows-[0fr] transition-[grid-template-rows] duration-500 ease-in-out peer-checked:grid-rows-[1fr]">
+                            <div class="overflow-hidden">
+                                <p class="para pt-6 text-white opacity-70 text-[clamp(14px,1.5vw,18px)] leading-180">
+                                    Amet vitae hendrerit facilisi gravida. Nascetur sed luctus
+                                    sit elit in mi orci. Aliquet ullamcorper quis felis at
+                                    scelerisque non faucibus. Amet vitae hendrerit facilisi
+                                    gravida. Nascetur sed luctus sit elit in mi orci. Aliquet
+                                    ullamcorper quis felis at scelerisque non faucibus.Amet
+                                    vitae hendrerit facilisi gravida. Nascetur sed luctus sit
+                                    elit in mi orci. Aliquet ullamcorper quis felis at
+                                    scelerisque non faucibus.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="w-full bg-main-gradient border border-solid border-gray rounded-custom backdrop-blur-[32px] p-4">
+                        <input type="checkbox" id="accordion-toggle-5" class="peer hidden">
+
+                        <label for="accordion-toggle-5"
+                            class="flex items-center justify-between list-none cursor-pointer select-none">
+                            <span class="heading text-[clamp(16px,1.53vw,22px)] leading-150 text-white font-semibold">
+                                Volutpat consequat dictumst vel donec.
+                            </span>
+
+                            <span class="transition-transform duration-500 [input:checked~label_&amp;]:rotate-180">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M16.293 9.29297L12 13.586L7.70697 9.29297L6.29297 10.707L12 16.414L17.707 10.707L16.293 9.29297Z"
+                                        fill="white"></path>
+                                </svg>
+                            </span>
+                        </label>
+
+                        <div
+                            class="grid grid-rows-[0fr] transition-[grid-template-rows] duration-500 ease-in-out peer-checked:grid-rows-[1fr]">
+                            <div class="overflow-hidden">
+                                <p class="para pt-6 text-white opacity-70 text-[clamp(14px,1.5vw,18px)] leading-180">
+                                    Amet vitae hendrerit facilisi gravida. Nascetur sed luctus
+                                    sit elit in mi orci. Aliquet ullamcorper quis felis at
+                                    scelerisque non faucibus. Amet vitae hendrerit facilisi
+                                    gravida. Nascetur sed luctus sit elit in mi orci. Aliquet
+                                    ullamcorper quis felis at scelerisque non faucibus.Amet
+                                    vitae hendrerit facilisi gravida. Nascetur sed luctus sit
+                                    elit in mi orci. Aliquet ullamcorper quis felis at
+                                    scelerisque non faucibus.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="designs relative hidden sm:block">
+            <img width="537" height="716" class="absolute -top-337.5 left-[-8%] object-contain h-179 hidden xl:block"
+                src="assets/images/design-left.webp" alt="">
+            <img width="537" height="716"
+                class="absolute top-[-1550px] right-[-8%] object-contain h-179 hidden xl:block"
+                src="assets/images/design-right.webp" alt="">
+            <img width="537" height="716" class="absolute top-50 right-[-7%] object-contain h-179 hidden xl:block"
+                src="assets/images/design-right.webp" alt="img">
+            <div
+                class="circle bg-yellow relative -top-300 xl:-top-337.5 right-[-95%] size-25 xl:size-73 rounded-full blur-[100px] xl:blur-[200px]">
+            </div>
+            <div
+                class="circle bg-yellow relative hidden xl:block xl:top-27.5 right-[-95%] size-25 xl:size-73 rounded-full blur-[100px] xl:blur-[200px]">
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

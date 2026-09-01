@@ -1,0 +1,3 @@
+Problem in this layout 
+1. hero img is not taken. (two different img one onto another)
+2. 
