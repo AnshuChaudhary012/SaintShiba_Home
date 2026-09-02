@@ -11,7 +11,7 @@
   --color-sed-blue: #00b2ff;
   --color-sed-yellow: #ffa800;
   --color-yellow: rgba(255, 168, 0, 1);
-  --color-gray: rgba(255,255,255,0.46);
+  --color-gray: rgba(255, 255, 255, 0.46);
   --color-sed-red: #ff4560;
   --background-image-orange-gradient: linear-gradient(
     180deg,
@@ -23,6 +23,7 @@
     rgba(255, 255, 255, 0.05) 0.97%,
     rgba(255, 255, 255, 0) 103.14%
   );
+  --background-image-amber-gradient: linear-gradient(90deg, #fff 0%, #fff 100%);
 
   --color-sed-red: #ff4560;
   /* using in color like text-blue bg-red etc */
