@@ -2,105 +2,54 @@
 
 @import "tailwindcss";
 
-@theme {
-  --font-poppins: "Poppins", sans-serif;
-  /* colors here  */
-  --color-sed-green: #00e396;
-  --color-sed-orange: #f06500;
-  --color-sed-purple: #8b35e2;
-  --color-sed-blue: #00b2ff;
-  --color-sed-yellow: #ffa800;
-  --color-yellow: rgba(255, 168, 0, 1);
-  --color-gray: rgba(255, 255, 255, 0.46);
-  --color-sed-red: #ff4560;
-  --background-image-orange-gradient: linear-gradient(
-    180deg,
-    #ffa800 0%,
-    #f06500 100%
-  );
-  --background-image-main-gradient: linear-gradient(
-    94.88deg,
-    rgba(255, 255, 255, 0.05) 0.97%,
-    rgba(255, 255, 255, 0) 103.14%
-  );
-  --background-image-amber-gradient: linear-gradient(90deg, #fff 0%, #fff 100%);
+  @theme {
+        --font-poppins: "Poppins", sans-serif;
 
-  --color-sed-red: #ff4560;
-  /* using in color like text-blue bg-red etc */
-  --color-custom-blue: #1a9fff;
-  /* only for spacing in mt pt p m in gap  etc */
-  --spacing-custom-9: 9px;
-  --spacing-custom-10: 10px;
-  --spacing-custom-13: 13px;
-  --spacing-custom-17: 17px;
-  --spacing-custom-18: 18px;
-  --spacing-custom-25: 25px;
-  --spacing-custom-26: 26px;
-  --spacing-custom-29: 29px;
-  --spacing-custom-30: 30px;
-  --spacing-custom-31: 31px;
-  --spacing-custom-34: 34px;
-  --spacing-custom-37: 37px;
-  --spacing-custom-40: 40px;
-  --spacing-custom-42: 42px;
-  --spacing-custom-45: 45px;
-  --spacing-custom-46: 46px;
-  --spacing-custom-50: 50px;
-  --spacing-custom-55: 55px;
-  --spacing-custom-63: 63px;
-  --spacing-custom-73: 73px;
-  --spacing-custom-80: 80px;
-  --spacing-custom-150: 150px;
-  --spacing-custom-170: 170px;
-  /* for shadows only */
-  --shadow-header: 0px 4px 35px 0px #00000014;
-  /* it will use inside mx-w-...  */
-  --container-container: 1352px;
-  --container-555: 555px;
-  --container-448: 448px;
-  --container-1136: 1136px;
-  --z-100: 100;
-  /* leading or line-height in percentage */
-  --leading-100: 100%;
-  --leading-115: 115%;
-  --leading-119: 119%;
-  --leading-120: 120%;
-  --leading-128: 128%;
-  --leading-127: 127%;
-  --leading-140: 140%;
-  --leading-150: 150%;
-  --leading-156: 156.25%;
-  --leading-133: 133%;
-  --leading-167: 167%;
-  --leading-178: 178%;
-  --leading-179: 179%;
-  --leading-180: 180%;
-  --leading-183: 183%;
-  --leading-188: 188%;
-  --leading-192: 192%;
-  --leading-200: 200%;
-  --leading-256: 256%;
-  /* below custom rounded prop */
-  --radius-custom: 10px;
-  --radius-custom5: 50px;
-}
+        --text-22: 22px;
+        --leading-180: 180%;
+        --leading-100: 100%;
+        --leading-99: 99%;
+        --leading-150: 150%;
+        --leading-128: 128%;
 
-@utility container-section {
-  @apply max-w-container w-full mx-auto px-4;
-}
+        --color-black-bg: rgba(12, 11, 11, 1);
+        --color-orange: rgba(240, 101, 0, 1);
+        --color-yellow: rgba(255, 168, 1, 1);
+        --color-yellow-orange: rgba(255, 168, 0, 1);
+        --color-black-blur: rgba(0, 0, 0, 0.75);
+        --color-dark-gray: rgba(29, 26, 26, 1);
+        --color-gray: rgba(21, 19, 19, 1);
+        --color-white-70: rgba(255, 255, 255, 0.7);
+        --color-border-gray: rgba(80, 79, 79, 1);
 
-@utility flex-center {
-  @apply flex justify-center items-center;
-}
+        --breakpoint-3xl: 1919px;
 
-/* 
+        --background-image-orange-gradient: linear-gradient(
+          90deg,
+          #ffa800 0%,
+          #f06500 100%
+        );
+        --background-image-bottom-gradient: linear-gradient(
+          180deg,
+          rgba(12, 11, 11, 0) 0%,
+          #0c0b0b 100%
+        );
 
- @keyframes marquee {
-    from {
-      transform: translateX(0);
-    }
+        --background-image-main-gradient: linear-gradient(
+          94.88deg,
+          rgba(255, 255, 255, 0.1) 0.97%,
+          rgba(255, 255, 255, 0) 103.14%
+        );
 
-    to {
-      transform: translateX(-50%);
-    }
-  } */
+        --background-image-border-gradient: linear-gradient(
+          95.21deg,
+          rgba(255, 255, 255, 0.2) -0.59%,
+          rgba(255, 255, 255, 0.092) 106.99%
+        );
+
+        --background-image-amber-gradient: linear-gradient(
+          90deg,
+          #d97706 0%,
+          #c2410c 100%
+        );
+      }
