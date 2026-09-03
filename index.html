@@ -10,7 +10,8 @@
 </head>
 
 <body class="font-poppins bg-black-bg select-none">
-    <header class="h-[clamp(60px,6.94vw,100px)] backdrop:blur-lg bg-black-blur flex items-center bg-[url(/assets/images/header-bg.webp)] bg-repeat w-full px-4">
+    <header
+        class="h-[clamp(60px,6.94vw,100px)] backdrop:blur-lg bg-black-blur flex items-center bg-[url(/assets/images/header-bg.webp)] bg-repeat w-full px-4">
         <div class="container max-w-330 w-full mx-auto">
             <nav class="nav-bar relative flex w-full items-center justify-between py-[clamp(10px,1.6vw,23px)]">
                 <div class="logo cursor-pointer text-[clamp(24px,2.5vw,36px)]">
@@ -30,6 +31,7 @@
 
                 <div
                     class="right fixed top-0 right-0 z-50 flex h-full w-[70vw] flex-col items-center justify-center gap-8 px-5 shadow-2xl invisible pointer-events-none translate-x-full opacity-0 transition-all duration-300 ease-in-out peer-checked:translate-x-0 peer-checked:visible peer-checked:pointer-events-auto peer-checked:opacity-100 max-xl:bg-black xl:static xl:z-auto xl:flex-row xl:items-center xl:gap-9.5 xl:w-auto xl:h-auto xl:p-0 xl:bg-transparent xl:shadow-none xl:translate-x-0 xl:visible xl:pointer-events-auto xl:opacity-100">
+
                     <div class="items flex flex-col items-center gap-8 xl:flex-row">
                         <div class="right-item">
                             <a class="relative inline-block text-lg text-white transition-all duration-500 hover:bg-orange-gradient hover:bg-clip-text hover:text-transparent hover:[-webkit-text-stroke:0.5px_#FFA800] after:absolute after:-bottom-0.5 after:left-0 after:h-0.5 after:w-0 after:bg-linear-to-r after:from-[#FFA800] after:to-[#F06500] after:transition-all after:duration-500 after:ease-out hover:after:w-full"
@@ -56,7 +58,7 @@
                             </a>
                         </div>
                         <div class="right-item">
-                            <a class="relative inline-block text-nowrap text-lg text-white transition-all duration-500 hover:bg-orange-gradient hover:bg-clip-text hover:text-transparent hover:[-webkit-text-stroke:0.5px_#FFA800] after:absolute after:bottom-[-2px] after:left-0 after:h-[2px] after:w-0 after:bg-gradient-to-r after:from-[#FFA800] after:to-[#F06500] after:transition-all after:duration-500 after:ease-out hover:after:w-full"
+                            <a class="relative inline-block text-nowrap text-lg text-white transition-all duration-500 hover:bg-orange-gradient hover:bg-clip-text hover:text-transparent hover:[-webkit-text-stroke:0.5px_#FFA800] after:absolute after:-bottom-0.5 after:left-0 after:h-0.5 after:w-0 after:bg-linear-to-r after:from-[#FFA800] after:to-[#F06500] after:transition-all after:duration-500 after:ease-out hover:after:w-full"
                                 href="">
                                 FAQ
                             </a>
@@ -66,19 +68,20 @@
                     <button
                         class="group text-nowrap cursor-pointer relative h-11.5 max-w-47 overflow-hidden rounded-[23px] bg-orange-gradient px-5.75 py-1.75 text-lg font-semibold leading-100 text-white transition-all duration-500 hover:text-black">
                         <span
-                            class="absolute left-1/2 top-1/2 h-0 w-0 -translate-x-1/2 -translate-y-1/2 rounded-full bg-amber-gradient opacity-0 transition-all duration-500 ease-out group-hover:h-45 group-hover:w-47.5 group-hover:opacity-100"></span>
-
+                            class="absolute left-1/2 top-1/2 h-0 w-0 -translate-x-1/2 -translate-y-1/2 rounded-full bg-amber-gradient opacity-0 transition-all duration-500 ease-out group-hover:h-45 group-hover:w-47.5 group-hover:opacity-100">
+                        </span>
                         <span class="relative z-10"> Connect Wallet </span>
                     </button>
                 </div>
             </nav>
         </div>
     </header>
-    <section class="min-h-fit xl:min-h-250 bg-[url(/assets/images/bg.webp)] bg-cover bg-center">
+    <section class="min-h-fit xl:min-h-250 bg-[url(/assets/images/hero_bg.webp)] bg-cover bg-center">
         <div class="container max-w-330 w-full mx-auto px-4">
             <div class="row w-full pt-14.75">
-                <div class="content flex flex-col xl:flex-row xl:items-center gap-[clamp(30px,6.6vw,95px)]">
-                    <div class="left max-w-165 w-full">
+                <div
+                    class="content flex flex-col xl:flex-row xl:items-center gap-[clamp(30px,6.6vw,95px)]x max-xl:gap-0">
+                    <div class="left xl:max-w-165 w-full max-xl:mx-auto ">
                         <h1 class="heading font-bold text-white text-[clamp(32px,6.67vw,96px)] leading-100">
                             Accumsan ut orci vitae
                         </h1>
@@ -88,15 +91,15 @@
                             vulputate congue arcu in et.
                         </p>
                         <button
-                            class="group cursor-pointer mt-[clamp(20px,3.47vw,50px)] relative h-[57px] max-w-59.25 w-full overflow-hidden rounded-[33px] bg-orange-gradient px-8 py-3 text-22 font-semibold text-white transition-all duration-500">
+                            class="group cursor-pointer mt-[clamp(20px,3.47vw,50px)] relative h-14.25 max-w-59.25 w-full overflow-hidden rounded-[33px] bg-orange-gradient px-8 py-3 text-22 font-semibold text-white transition-all duration-500 hover:text-black">
                             <span
-                                class="absolute left-1/2 top-1/2 h-0 w-0 -translate-x-1/2 -translate-y-1/2 rounded-full bg-amber-gradient opacity-0 transition-all duration-500 ease-out group-hover:h-45 group-hover:w-75 group-hover:opacity-100"></span>
-
+                                class="absolute left-1/2 top-1/2 h-0 w-0 -translate-x-1/2 -translate-y-1/2 rounded-full bg-amber-gradient opacity-0 transition-all duration-500 ease-out group-hover:h-45 group-hover:w-75 group-hover:opacity-100">
+                            </span>
                             <span class="relative z-10 leading-150"> Connect Wallet </span>
                         </button>
                     </div>
                     <div class="right">
-                        <img width="565" height="841" class="h-auto w-auto xl:h-210.25 xl:w-141.25"
+                        <img width="565" height="841" class="h-auto w-auto xl:h-210.25 xl:w-141.25 max-xl:mx-auto"
                             src="assets/images/fox-1.webp" alt="shiba" />
                     </div>
                 </div>
@@ -107,7 +110,7 @@
         </div>
     </section>
     <div
-        class="part absolute left-4 right-4 xl:left-0 xl:right-0 z-40 m-auto h-auto xl:h-85.25 -mt-37.5 xl:-mt-50 mb-14.5 max-w-330 rounded-[10px] border border-border-gray border-solid">
+        class="part absolute left-4 right-4 xl:left-0 xl:right-0 z-40 m-auto h-auto xl:h-85.25 -mt-37.5 xl:-mt-50 mb-14.5 max-w-330 rounded-custom border border-border-gray border-solid">
         <div class="h-full w-full p-[clamp(10px,1.67vw,24px)] rounded-[9px] bg-main-gradient backdrop-blur-[32px]">
             <h1 class="headidg text-[clamp(30px,3.33vw,48px)] font-semibold text-white leading-128">
                 Cursus ligula habitant sed integer.
@@ -137,7 +140,7 @@
         <div class="container max-w-330 px-4 mx-auto">
             <div class="row w-full">
                 <div class="content xl:items-center gap-[clamp(30px,3.82vw,55px)] flex flex-col xl:flex-row">
-                    <div class="left max-w-165">
+                    <div class="left xl:max-w-165">
                         <h1 class="heading text-[clamp(30px,3.33vw,48px)] text-white font-semibold">
                             Cursus ligula habitant sed integer.
                         </h1>
@@ -150,7 +153,7 @@
                             tellus.
                         </p>
                         <button
-                            class="group cursor-pointer mt-[clamp(24px,2.71vw,39px)] relative h-11.5 max-w-37.5 w-full overflow-hidden rounded-[33px] bg-orange-gradient px-5.75 py-1.75 text-lg font-semibold text-white transition-all duration-500">
+                            class="group cursor-pointer mt-[clamp(24px,2.71vw,39px)] relative h-11.5 max-w-37.5 w-full overflow-hidden rounded-[33px] bg-orange-gradient px-5.75 py-1.75 text-lg font-semibold text-white transition-all duration-500 hover:text-black">
                             <span
                                 class="absolute left-1/2 top-1/2 h-0 w-0 -translate-x-1/2 -translate-y-1/2 rounded-full bg-amber-gradient opacity-0 transition-all duration-500 ease-out group-hover:h-45 group-hover:w-50 group-hover:opacity-100"></span>
 
@@ -158,8 +161,8 @@
                         </button>
                     </div>
                     <div class="right">
-                        <img width="551" height="722" class="w-auto h-auto object-cover" src="assets/images/fox.webp"
-                            alt="shiba" />
+                        <img width="551" height="722" class="w-auto h-auto object-cover mx-auto"
+                            src="assets/images/fox.webp" alt="fox_img" />
                     </div>
                 </div>
             </div>
@@ -244,22 +247,22 @@
         </div>
     </section>
     <section class="min-h-fit xl:min-h-[3428px] overflow-hidden px-4">
-        <div class="container mx-auto w-full max-w-[1320px]">
-            <div class="row pt-[60px] z-50 lg:pt-[62px]">
+        <div class="container mx-auto w-full max-w-330">
+            <div class="row pt-15 z-50 lg:pt-15.5">
                 <h1 class="heading text-center text-[clamp(30px,3.33vw,48px)] font-semibold leading-128 text-white">
                     Takenomics
                 </h1>
 
-                <div class="cards mt-[32px] mb-[22px] flex flex-wrap xl:flex-nowrap justify-center gap-[20px]">
+                <div class="cards mt-8 mb-5.5 flex flex-wrap xl:flex-nowrap justify-center gap-5">
                     <div
-                        class="card text-nowrap cursor-pointer w-full group max-w-[424px] rounded-[10px] border border-border-gray bg-main-gradient px-[20px] pt-[16px] pb-[22px] backdrop-blur-[32px] xl:min-w-[424px]">
-                        <h1 class="mb-[16px] max-w-[90px] text-[22px] font-normal leading-150 text-white">
+                        class="card text-nowrap cursor-pointer w-full group rounded-custom border border-border-gray bg-main-gradient px-5 pt-4 pb-5.5 backdrop-blur-[32px] xl:min-w-106">
+                        <h1 class="mb-4 max-w-22.5 text-22 font-normal leading-150 text-white">
                             Liquidity
                         </h1>
 
-                        <div class="flex items-center gap-[60px] sm:gap-[106px]">
+                        <div class="flex items-center gap-15 sm:gap-26.5">
                             <div class="buying">
-                                <h1 class="text-[14px] font-normal leading-180 text-white opacity-[70%]">
+                                <h1 class="text-[14px] font-normal leading-180 text-white opacity-70">
                                     When Buying
                                 </h1>
 
@@ -270,7 +273,7 @@
                             </div>
 
                             <div class="selling mt-1">
-                                <h1 class="text-[14px] font-normal leading-180 text-white opacity-[70%]">
+                                <h1 class="text-[14px] font-normal leading-180 text-white opacity-70">
                                     When Selling
                                 </h1>
 
@@ -282,14 +285,14 @@
                         </div>
                     </div>
                     <div
-                        class="card text-nowrap w-full cursor-pointer group max-w-[424px] rounded-[10px] border border-border-gray bg-main-gradient px-[20px] pt-[16px] pb-[22px] backdrop-blur-[32px] xl:min-w-[424px]">
-                        <h1 class="mb-[16px] max-w-[90px] text-[22px] font-normal leading-150 text-white">
+                        class="card text-nowrap w-full cursor-pointer group rounded-custom border border-border-gray bg-main-gradient px-5 pt-4 pb-5.5 backdrop-blur-[32px] xl:min-w-106">
+                        <h1 class="mb-4 max-w-22.5 text-22 font-normal leading-150 text-white">
                             Marketing
                         </h1>
 
-                        <div class="flex items-center gap-[60px] sm:gap-[106px]">
+                        <div class="flex items-center gap-15 sm:gap-26.5">
                             <div class="buying">
-                                <h1 class="text-[14px] font-normal leading-180 text-white opacity-[70%]">
+                                <h1 class="text-[14px] font-normal leading-180 text-white opacity-70">
                                     When Buying
                                 </h1>
 
@@ -300,7 +303,7 @@
                             </div>
 
                             <div class="selling mt-1">
-                                <h1 class="text-[14px] font-normal leading-180 text-white opacity-[70%]">
+                                <h1 class="text-[14px] font-normal leading-180 text-white opacity-70">
                                     When Selling
                                 </h1>
 
@@ -312,14 +315,14 @@
                         </div>
                     </div>
                     <div
-                        class="card text-nowrap w-full cursor-pointer group max-w-[424px] rounded-[10px] border border-border-gray bg-main-gradient px-[20px] pt-[16px] pb-[22px] backdrop-blur-[32px] xl:min-w-[424px]">
-                        <h1 class="mb-[16px] max-w-[90px] text-[22px] font-normal leading-150 text-white">
+                        class="card text-nowrap w-full cursor-pointer group rounded-custom border border-border-gray bg-main-gradient px-5 pt-4 pb-5.5 backdrop-blur-[32px] xl:min-w-106">
+                        <h1 class="mb-4 max-w-22.5 text-22 font-normal leading-150 text-white">
                             Rewards
                         </h1>
 
-                        <div class="flex items-center gap-[60px] sm:gap-[106px]">
+                        <div class="flex items-center gap-15 sm:gap-26.5">
                             <div class="buying">
-                                <h1 class="text-[14px] font-normal leading-180 text-white opacity-[70%]">
+                                <h1 class="text-[14px] font-normal leading-180 text-white opacity-70">
                                     When Buying
                                 </h1>
 
@@ -330,7 +333,7 @@
                             </div>
 
                             <div class="selling mt-1">
-                                <h1 class="text-[14px] font-normal leading-180 text-white opacity-[70%]">
+                                <h1 class="text-[14px] font-normal leading-180 text-white opacity-70">
                                     When Selling
                                 </h1>
 
@@ -343,71 +346,71 @@
                     </div>
                 </div>
                 <div
-                    class="data-content mx-[20px] max-w-[1320px] rounded-[10px] border border-border-gray bg-main-gradient backdrop-blur-[32px] lg:mx-auto">
+                    class="data-content mx-5 max-w-330 rounded-custom  bg-main-gradient backdrop-blur-[32px] lg:mx-auto">
                     <div
-                        class="flex max-w-[1320px] flex-wrap xl:flex-nowrap items-center justify-center px-5 py-[40px] sm:justify-between sm:pt-[67px] sm:pb-[70px] lg:pl-[66px] lg:pr-[97px]">
+                        class="flex max-w-330 flex-wrap xl:flex-nowrap items-center justify-center px-5 py-10 sm:justify-between sm:pt-16.75 sm:pb-17.5 lg:pl-16.5 lg:pr-24.25 border border-border-gray border-b-0">
                         <div
-                            class="flex max-w-[820px] flex-col items-center justify-center gap-5 sm:gap-[80px] sm:flex-row sm:items-start lg:gap-[157px]">
-                            <img width="361" height="361" class="size-[200px] object-cover lg:size-[361px]"
+                            class="flex max-w-205 flex-col items-center justify-center gap-5 sm:gap-20 sm:flex-row sm:items-start lg:gap-39.25">
+                            <img width="361" height="361" class="size-50 object-cover lg:size-90.25"
                                 src="./assets/images/data.webp" alt="data" />
 
-                            <div class="colors mx-auto my-[30px] max-w-[303px]">
+                            <div class="colors mx-auto my-7.5 max-w-75.75">
                                 <div
-                                    class="mb-[15px] flex w-100 max-w-[303px] items-center justify-center gap-[15px] md:gap-[25px]">
-                                    <img width="50" height="50" class="size-[30px] md:size-[50px]"
+                                    class="mb-3.75 flex w-100 max-w-75.75 items-center justify-center gap-3.75 md:gap-6.25">
+                                    <img width="50" height="50" class="size-7.5 md:size-12.5"
                                         src="./assets/images/cyan.webp" alt="cyan-color" />
 
-                                    <h1 class="text-[18px] font-semibold leading-180 text-white lg:min-w-[228px]">
+                                    <h1 class="text-[18px] font-semibold leading-180 text-white lg:min-w-57">
                                         Sed sem
                                     </h1>
                                 </div>
 
                                 <div
-                                    class="mb-[15px] flex w-100 max-w-[303px] items-center justify-center gap-[15px] md:gap-[25px]">
-                                    <img width="50" height="50" class="size-[30px] md:size-[50px]"
+                                    class="mb-3.75 flex w-100 max-w-75.75 items-center justify-center gap-3.75 md:gap-6.25">
+                                    <img width="50" height="50" class="size-7.5 md:size-12.5"
                                         src="./assets/images/orange.webp" alt="orange-color" />
 
-                                    <h1 class="text-[18px] font-semibold leading-180 text-white lg:min-w-[228px]">
+                                    <h1 class="text-[18px] font-semibold leading-180 text-white lg:min-w-57">
                                         Sed sem
                                     </h1>
                                 </div>
 
                                 <div
-                                    class="mb-[15px] flex w-100 max-w-[303px] items-center justify-center gap-[15px] md:gap-[25px]">
-                                    <img width="50" height="50" class="size-[30px] md:size-[50px]"
+                                    class="mb-3.75 flex w-100 max-w-75.75 items-center justify-center gap-3.75 md:gap-6.25">
+                                    <img width="50" height="50" class="size-7.5 md:size-12.5"
                                         src="./assets/images/purple.webp" alt="purple-color" />
 
-                                    <h1 class="text-[18px] font-semibold leading-180 text-white lg:min-w-[228px]">
+                                    <h1 class="text-[18px] font-semibold leading-180 text-white lg:min-w-57">
                                         Sed sem
                                     </h1>
                                 </div>
 
                                 <div
-                                    class="mb-[15px] flex w-100 max-w-[303px] items-center justify-center gap-[15px] md:gap-[25px]">
-                                    <img width="50" height="50" class="size-[30px] md:size-[50px]"
+                                    class="mb-3.75 flex w-100 max-w-75.75 items-center justify-center gap-3.75 md:gap-6.25">
+                                    <img width="50" height="50" class="size-7.5 md:size-12.5"
                                         src="./assets/images/blue.webp" alt="blue-color" />
 
-                                    <h1 class="text-[18px] font-semibold leading-180 text-white lg:min-w-[228px]">
+                                    <h1 class="text-[18px] font-semibold leading-180 text-white lg:min-w-57">
                                         Sed sem
                                     </h1>
                                 </div>
 
                                 <div
-                                    class="mb-[15px] flex w-100 max-w-[303px] items-center justify-center gap-[15px] md:gap-[25px]">
-                                    <img width="50" height="50" class="size-[30px] md:size-[50px]"
+                                    class="mb-3.75 flex w-100 max-w-75.75 items-center justify-center gap-3.75 md:gap-6.25">
+                                    <img width="50" height="50" class="size-7.5 md:size-12.5"
                                         src="./assets/images/yellow.webp" alt="yellow-color" />
 
-                                    <h1 class="text-[18px] font-semibold leading-180 text-white lg:min-w-[228px]">
+                                    <h1 class="text-[18px] font-semibold leading-180 text-white lg:min-w-57">
                                         Sed sem
                                     </h1>
                                 </div>
 
                                 <div
-                                    class="mb-[15px] flex w-100 max-w-[303px] items-center justify-center gap-[15px] md:gap-[25px]">
-                                    <img width="50" height="50" class="size-[30px] md:size-[50px]"
+                                    class="mb-3.75 flex w-100 max-w-75.75 items-center justify-center gap-3.75 md:gap-6.25">
+                                    <img width="50" height="50" class="size-7.5 md:size-12.5"
                                         src="./assets/images/pink.webp" alt="pink-color" />
 
-                                    <h1 class="text-[18px] font-semibold leading-180 text-white lg:min-w-[228px]">
+                                    <h1 class="text-[18px] font-semibold leading-180 text-white lg:min-w-57">
                                         Sed sem
                                     </h1>
                                 </div>
@@ -418,227 +421,227 @@
                     </div>
 
                     <div class="overflow-x-scroll overflow-hidden">
-                        <table class="w-100 min-w-[900px] lg:min-w-[1320px]" cellpadding="0" cellspacing="0">
+                        <table class="w-100 min-w-225 lg:min-w-330" cellpadding="0" cellspacing="0">
                             <thead class="bg-[#0C0C0C]">
                                 <tr>
-                                    <th class="min-w-[135px] xl:w-100"></th>
+                                    <th class="min-w-33.75 xl:w-100"></th>
 
                                     <th
-                                        class="pt-[14px] pb-[22px] text-[16px] font-semibold leading-180 text-white sm:text-[18px]">
+                                        class="pt-3.5 pb-5.5 text-[16px] font-semibold leading-180 text-white sm:text-[18px]">
                                         Token
                                     </th>
 
                                     <th
-                                        class="pt-[14px] pb-[22px] text-[16px] font-semibold leading-180 text-white sm:text-[18px]">
+                                        class="pt-3.5 pb-5.5 text-[16px] font-semibold leading-180 text-white sm:text-[18px]">
                                         Percentage
                                     </th>
 
                                     <th
-                                        class="pt-[14px] pb-[22px] text-[16px] font-semibold leading-180 text-white sm:text-[18px]">
+                                        class="pt-3.5 pb-5.5 text-[16px] font-semibold leading-180 text-white sm:text-[18px]">
                                         Token Price
                                     </th>
 
                                     <th
-                                        class="pt-[14px] pb-[22px] text-[16px] font-semibold leading-180 text-white sm:text-[18px]">
+                                        class="pt-3.5 pb-5.5 text-[16px] font-semibold leading-180 text-white sm:text-[18px]">
                                         Token Price
                                     </th>
 
                                     <th
-                                        class="pt-[14px] pb-[22px] text-[16px] font-semibold leading-180 text-white sm:text-[18px]">
+                                        class="pt-3.5 pb-5.5 text-[16px] font-semibold leading-180 text-white sm:text-[18px]">
                                         Total Amount
                                     </th>
                                 </tr>
                             </thead>
 
-                            <tbody>
+                            <tbody class="border border-t-0 border-border-gray">
                                 <tr>
                                     <td
-                                        class="pt-[17px] pb-[28px] text-center text-[16px] font-normal leading-180 text-white sm:text-[18px]">
+                                        class="pt-4.25 pb-7 text-center text-[16px] font-normal leading-180 text-white sm:text-[18px]">
                                         Seddigq
                                     </td>
 
                                     <td
-                                        class="pt-[17px] pb-[28px] text-center text-[16px] font-normal leading-180 text-white opacity-[70%] sm:text-[18px]">
+                                        class="pt-4.25 pb-7 text-center text-[16px] font-normal leading-180 text-white opacity-70 sm:text-[18px]">
                                         1,00,000
                                     </td>
 
                                     <td
-                                        class="pt-[17px] pb-[28px] text-center text-[16px] font-normal leading-180 text-white opacity-[70%] sm:text-[18px]">
+                                        class="pt-4.25 pb-7 text-center text-[16px] font-normal leading-180 text-white opacity-70 sm:text-[18px]">
                                         12%
                                     </td>
 
                                     <td
-                                        class="pt-[17px] pb-[28px] text-center text-[16px] font-normal leading-180 text-white opacity-[70%] sm:text-[18px]">
+                                        class="pt-4.25 pb-7 text-center text-[16px] font-normal leading-180 text-white opacity-70 sm:text-[18px]">
                                         58.3
                                     </td>
 
                                     <td
-                                        class="pt-[17px] pb-[28px] text-center text-[16px] font-normal leading-180 text-white opacity-[70%] sm:text-[18px]">
+                                        class="pt-4.25 pb-7 text-center text-[16px] font-normal leading-180 text-white opacity-70 sm:text-[18px]">
                                         12%
                                     </td>
 
                                     <td
-                                        class="pt-[17px] pb-[28px] text-center text-[16px] font-normal leading-180 text-white opacity-[70%] sm:text-[18px]">
+                                        class="pt-4.25 pb-7 text-center text-[16px] font-normal leading-180 text-white opacity-70 sm:text-[18px]">
                                         10% Monthly
                                     </td>
                                 </tr>
 
                                 <tr>
                                     <td
-                                        class="pb-[28px] text-center text-[16px] font-normal leading-180 text-white sm:text-[18px]">
+                                        class="pb-7 text-center text-[16px] font-normal leading-180 text-white sm:text-[18px]">
                                         Seddigq
                                     </td>
 
                                     <td
-                                        class="pb-[28px] text-center text-[16px] font-normal leading-180 text-white opacity-[70%] sm:text-[18px]">
+                                        class="pb-7 text-center text-[16px] font-normal leading-180 text-white opacity-70 sm:text-[18px]">
                                         1,00,000
                                     </td>
 
                                     <td
-                                        class="pb-[28px] text-center text-[16px] font-normal leading-180 text-white opacity-[70%] sm:text-[18px]">
+                                        class="pb-7 text-center text-[16px] font-normal leading-180 text-white opacity-70 sm:text-[18px]">
                                         12%
                                     </td>
 
                                     <td
-                                        class="pb-[28px] text-center text-[16px] font-normal leading-180 text-white opacity-[70%] sm:text-[18px]">
+                                        class="pb-7 text-center text-[16px] font-normal leading-180 text-white opacity-70 sm:text-[18px]">
                                         58.3
                                     </td>
 
                                     <td
-                                        class="pb-[28px] text-center text-[16px] font-normal leading-180 text-white opacity-[70%] sm:text-[18px]">
+                                        class="pb-7 text-center text-[16px] font-normal leading-180 text-white opacity-70 sm:text-[18px]">
                                         12%
                                     </td>
 
                                     <td
-                                        class="pb-[28px] text-center text-[16px] font-normal leading-180 text-white opacity-[70%] sm:text-[18px]">
+                                        class="pb-7 text-center text-[16px] font-normal leading-180 text-white opacity-70 sm:text-[18px]">
                                         10% Monthly
                                     </td>
                                 </tr>
 
                                 <tr>
                                     <td
-                                        class="pb-[28px] text-center text-[16px] font-normal leading-180 text-white sm:text-[18px]">
+                                        class="pb-7 text-center text-[16px] font-normal leading-180 text-white sm:text-[18px]">
                                         Seddigq
                                     </td>
 
                                     <td
-                                        class="pb-[28px] text-center text-[16px] font-normal leading-180 text-white opacity-[70%] sm:text-[18px]">
+                                        class="pb-7 text-center text-[16px] font-normal leading-180 text-white opacity-70 sm:text-[18px]">
                                         1,00,000
                                     </td>
 
                                     <td
-                                        class="pb-[28px] text-center text-[16px] font-normal leading-180 text-white opacity-[70%] sm:text-[18px]">
+                                        class="pb-7 text-center text-[16px] font-normal leading-180 text-white opacity-70 sm:text-[18px]">
                                         12%
                                     </td>
 
                                     <td
-                                        class="pb-[28px] text-center text-[16px] font-normal leading-180 text-white opacity-[70%] sm:text-[18px]">
+                                        class="pb-7 text-center text-[16px] font-normal leading-180 text-white opacity-70 sm:text-[18px]">
                                         58.3
                                     </td>
 
                                     <td
-                                        class="pb-[28px] text-center text-[16px] font-normal leading-180 text-white opacity-[70%] sm:text-[18px]">
+                                        class="pb-7 text-center text-[16px] font-normal leading-180 text-white opacity-70 sm:text-[18px]">
                                         12%
                                     </td>
 
                                     <td
-                                        class="pb-[28px] text-center text-[16px] font-normal leading-180 text-white opacity-[70%] sm:text-[18px]">
+                                        class="pb-7 text-center text-[16px] font-normal leading-180 text-white opacity-70 sm:text-[18px]">
                                         10% Monthly
                                     </td>
                                 </tr>
 
                                 <tr>
                                     <td
-                                        class="pb-[28px] text-center text-[16px] font-normal leading-180 text-white sm:text-[18px]">
+                                        class="pb-7 text-center text-[16px] font-normal leading-180 text-white sm:text-[18px]">
                                         Seddigq
                                     </td>
 
                                     <td
-                                        class="pb-[28px] text-center text-[16px] font-normal leading-180 text-white opacity-[70%] sm:text-[18px]">
+                                        class="pb-7 text-center text-[16px] font-normal leading-180 text-white opacity-70 sm:text-[18px]">
                                         1,00,000
                                     </td>
 
                                     <td
-                                        class="pb-[28px] text-center text-[16px] font-normal leading-180 text-white opacity-[70%] sm:text-[18px]">
+                                        class="pb-7 text-center text-[16px] font-normal leading-180 text-white opacity-70 sm:text-[18px]">
                                         12%
                                     </td>
 
                                     <td
-                                        class="pb-[28px] text-center text-[16px] font-normal leading-180 text-white opacity-[70%] sm:text-[18px]">
+                                        class="pb-7 text-center text-[16px] font-normal leading-180 text-white opacity-70 sm:text-[18px]">
                                         58.3
                                     </td>
 
                                     <td
-                                        class="pb-[28px] text-center text-[16px] font-normal leading-180 text-white opacity-[70%] sm:text-[18px]">
+                                        class="pb-7 text-center text-[16px] font-normal leading-180 text-white opacity-70 sm:text-[18px]">
                                         12%
                                     </td>
 
                                     <td
-                                        class="pb-[28px] text-center text-[16px] font-normal leading-180 text-white opacity-[70%] sm:text-[18px]">
+                                        class="pb-7 text-center text-[16px] font-normal leading-180 text-white opacity-70 sm:text-[18px]">
                                         10% Monthly
                                     </td>
                                 </tr>
 
                                 <tr>
                                     <td
-                                        class="pb-[28px] text-center text-[16px] font-normal leading-180 text-white sm:text-[18px]">
+                                        class="pb-7 text-center text-[16px] font-normal leading-180 text-white sm:text-[18px]">
                                         Seddigq
                                     </td>
 
                                     <td
-                                        class="pb-[28px] text-center text-[16px] font-normal leading-180 text-white opacity-[70%] sm:text-[18px]">
+                                        class="pb-7 text-center text-[16px] font-normal leading-180 text-white opacity-70 sm:text-[18px]">
                                         1,00,000
                                     </td>
 
                                     <td
-                                        class="pb-[28px] text-center text-[16px] font-normal leading-180 text-white opacity-[70%] sm:text-[18px]">
+                                        class="pb-7 text-center text-[16px] font-normal leading-180 text-white opacity-70 sm:text-[18px]">
                                         12%
                                     </td>
 
                                     <td
-                                        class="pb-[28px] text-center text-[16px] font-normal leading-180 text-white opacity-[70%] sm:text-[18px]">
+                                        class="pb-7 text-center text-[16px] font-normal leading-180 text-white opacity-70 sm:text-[18px]">
                                         58.3
                                     </td>
 
                                     <td
-                                        class="pb-[28px] text-center text-[16px] font-normal leading-180 text-white opacity-[70%] sm:text-[18px]">
+                                        class="pb-7 text-center text-[16px] font-normal leading-180 text-white opacity-70 sm:text-[18px]">
                                         12%
                                     </td>
 
                                     <td
-                                        class="pb-[28px] text-center text-[16px] font-normal leading-180 text-white opacity-[70%] sm:text-[18px]">
+                                        class="pb-7 text-center text-[16px] font-normal leading-180 text-white opacity-70 sm:text-[18px]">
                                         10% Monthly
                                     </td>
                                 </tr>
 
                                 <tr>
                                     <td
-                                        class="pb-[32px] text-center text-[16px] font-normal leading-180 text-white sm:text-[18px]">
+                                        class="pb-8 text-center text-[16px] font-normal leading-180 text-white sm:text-[18px]">
                                         Seddigq
                                     </td>
 
                                     <td
-                                        class="pb-[32px] text-center text-[16px] font-normal leading-180 text-white opacity-[70%] sm:text-[18px]">
+                                        class="pb-8 text-center text-[16px] font-normal leading-180 text-white opacity-70 sm:text-[18px]">
                                         1,00,000
                                     </td>
 
                                     <td
-                                        class="pb-[32px] text-center text-[16px] font-normal leading-180 text-white opacity-[70%] sm:text-[18px]">
+                                        class="pb-8 text-center text-[16px] font-normal leading-180 text-white opacity-70 sm:text-[18px]">
                                         12%
                                     </td>
 
                                     <td
-                                        class="pb-[32px] text-center text-[16px] font-normal leading-180 text-white opacity-[70%] sm:text-[18px]">
+                                        class="pb-8 text-center text-[16px] font-normal leading-180 text-white opacity-70 sm:text-[18px]">
                                         58.3
                                     </td>
 
                                     <td
-                                        class="pb-[32px] text-center text-[16px] font-normal leading-180 text-white opacity-[70%] sm:text-[18px]">
+                                        class="pb-8 text-center text-[16px] font-normal leading-180 text-white opacity-70 sm:text-[18px]">
                                         12%
                                     </td>
 
                                     <td
-                                        class="pb-[32px] text-center text-[16px] font-normal leading-180 text-white opacity-[70%] sm:text-[18px]">
+                                        class="pb-8 text-center text-[16px] font-normal leading-180 text-white opacity-70 sm:text-[18px]">
                                         10% Monthly
                                     </td>
                                 </tr>
@@ -647,18 +650,18 @@
                     </div>
                 </div>
             </div>
-            <div class="row pt-[59px] z-50 pl-5 xl:pl-0">
+            <div class="row pt-14.75 z-50 pl-5 xl:pl-0">
                 <h1 class="heading text-white text-center text-[clamp(30px,3.33vw,48px)] font-semibold leading-128">
                     Roadmap
                 </h1>
                 <div class="roadmap">
                     <div class="big-card relative mt-[clamp(30px,4.1vw,59px)] w-full max-[1281px]:pl-10">
                         <div
-                            class="circle absolute left-1/2 z-10 size-[36px] -translate-x-1/2 rounded-full bg-orange-gradient max-[1281px]:left-[-1%] max-[1281px]:-translate-x-[-1%] max-[376px]:left-[-3%]">
+                            class="circle absolute left-1/2 z-10 size-9 -translate-x-1/2 rounded-full bg-orange-gradient max-[1281px]:left-[-1%] max-[1281px]:translate-x-[1%] max-[376px]:left-[-3%]">
                         </div>
 
                         <div
-                            class="card w-full max-w-[547px] rounded-[10px] bg-transparent pr-[25px] max-[1281px]:max-w-full">
+                            class="card w-full max-w-136.75 rounded-custom bg-transparent pr-6.25 max-[1281px]:max-w-full">
                             <h1
                                 class="card-heading text-[clamp(24px,2.5vw,36px)] font-bold text-left leading-150 xl:text-right text-white">
                                 Phase-1
@@ -673,23 +676,23 @@
                         </div>
 
                         <div
-                            class="absolute top-[30px] left-1/2 z-0 h-[calc(100%+97px)] w-[5px] -translate-x-1/2 bg-white max-[1281px]:left-0 max-[1281px]:translate-x-0 max-[992px]:left-[8px] max-[680px]:left-[8px]">
+                            class="absolute top-7.5 left-1/2 z-0 h-[calc(100%+97px)] w-1.25 -translate-x-1/2 bg-white max-xl:left-0 max-xl:translate-x-0 max-lg:left-2 ">
                         </div>
                     </div>
 
                     <div
                         class="big-card relative mt-4 flex w-full justify-end pl-0 max-[1281px]:justify-start max-[1281px]:pl-10">
                         <div
-                            class="circle absolute left-1/2 z-10 size-[36px] -translate-x-1/2 rounded-full bg-orange-gradient max-[1281px]:left-[-1%] max-[1281px]:-translate-x-[-1%] max-[376px]:left-[-3%]">
+                            class="circle absolute left-1/2 z-10 size-9 -translate-x-1/2 rounded-full bg-orange-gradient max-[1281px]:left-[-1%] max-[1281px]:translate-x-[1%] max-[376px]:left-[-3%]">
                         </div>
                         <div
-                            class="card w-full max-w-[547px] rounded-[10px] bg-transparent xl:pl-[25px] max-[1281px]:max-w-full">
+                            class="card w-full max-w-136.75 rounded-custom bg-transparent xl:pl-6.25 max-[1281px]:max-w-full">
                             <h1
-                                class="card-heading text-[clamp(24px,2.5vw,36px)] leading-150 font-bold leading-150 text-left text-white">
+                                class="card-heading text-[clamp(24px,2.5vw,36px)] leading-150 font-bold text-left text-white">
                                 Phase-2
                             </h1>
                             <p
-                                class="para text-[clamp(14px,1.25vw,18px)] leading-180 text-white leading-180 opacity-70 text-left mt-2">
+                                class="para text-[clamp(14px,1.25vw,18px)] leading-180 text-white opacity-70 text-left mt-2">
                                 Massa pellentesque sagittis <br />
                                 Aliquam sed in odio. <br />
                                 Turpis blandit at interdum <br />
@@ -698,17 +701,17 @@
                         </div>
 
                         <div
-                            class="absolute top-[30px] left-1/2 z-0 h-[calc(100%+28px)] w-[5px] -translate-x-1/2 bg-white max-[1281px]:left-0 max-[1281px]:translate-x-0 max-[992px]:left-[8px] max-[680px]:left-[8px]">
+                            class="absolute top-7.5 left-1/2 z-0 h-[calc(100%+28px)] w-1.25 -translate-x-1/2 bg-white max-[1281px]:left-0 max-[1281px]:translate-x-0 max-[992px]:left-2 max-[680px]:left-2">
                         </div>
                     </div>
 
                     <div class="big-card relative mt-4 w-full max-[1281px]:pl-10">
                         <div
-                            class="circle absolute left-1/2 z-10 size-[36px] -translate-x-1/2 rounded-full bg-orange-gradient max-[1281px]:left-[-1%] max-[1281px]:-translate-x-[-1%] max-[376px]:left-[-3%]">
+                            class="circle absolute left-1/2 z-10 size-9 -translate-x-1/2 rounded-full bg-orange-gradient max-[1281px]:left-[-1%] max-[1281px]:translate-x-[1%] max-[376px]:left-[-3%]">
                         </div>
 
                         <div
-                            class="card w-full max-w-136.75 rounded-[10px] bg-transparent pr-6.25 max-[1281px]:max-w-full">
+                            class="card w-full max-w-136.75 rounded-custom bg-transparent pr-6.25 max-[1281px]:max-w-full">
                             <h1
                                 class="card-heading text-[clamp(24px,2.5vw,36px)] font-bold leading-150 text-left xl:text-right text-white">
                                 Phase-3
@@ -734,7 +737,7 @@
                         </div>
 
                         <div
-                            class="card w-full max-w-136.75 rounded-[10px] bg-transparent xl:pl-6.25 max-[1281px]:max-w-full">
+                            class="card w-full max-w-136.75 rounded-custom bg-transparent xl:pl-6.25 max-[1281px]:max-w-full">
                             <h1
                                 class="card-heading text-[clamp(24px,2.5vw,36px)] font-bold text-left leading-150 text-white">
                                 Phase-4
@@ -756,13 +759,12 @@
                 </h1>
                 <div class="accordions flex flex-col mt-[clamp(24px,2.22vw,32px)] gap-2">
                     <div
-                        class="w-full bg-main-gradient border border-solid border-gray rounded-[10px] backdrop-blur-[32px] p-4">
+                        class="w-full bg-main-gradient border border-solid border-gray rounded-custom backdrop-blur-[32px] p-4 py-3.75">
                         <input type="checkbox" id="accordion-toggle-1" class="peer hidden" />
 
                         <label for="accordion-toggle-1"
                             class="flex items-center justify-between list-none cursor-pointer select-none">
-                            <span
-                                class="heading text-[clamp(16px,1.53vw,22px)] leading-150 text-white font-semibold">
+                            <span class="heading text-[clamp(16px,1.53vw,22px)] leading-150 text-white font-semibold">
                                 Volutpat consequat dictumst vel donec.
                             </span>
 
@@ -779,8 +781,7 @@
                         <div
                             class="grid grid-rows-[0fr] transition-[grid-template-rows] duration-500 ease-in-out peer-checked:grid-rows-[1fr]">
                             <div class="overflow-hidden">
-                                <p
-                                    class="para pt-6 text-white opacity-70 text-[clamp(14px,1.5vw,18px)] leading-180">
+                                <p class="para pt-6 text-white opacity-70 text-[clamp(14px,1.5vw,18px)] leading-180">
                                     Amet vitae hendrerit facilisi gravida. Nascetur sed luctus
                                     sit elit in mi orci. Aliquet ullamcorper quis felis at
                                     scelerisque non faucibus. Amet vitae hendrerit facilisi
@@ -794,13 +795,12 @@
                         </div>
                     </div>
                     <div
-                        class="w-full bg-main-gradient border border-solid border-gray rounded-[10px] backdrop-blur-[32px] p-4">
+                        class="w-full bg-main-gradient border border-solid border-gray rounded-custom backdrop-blur-[32px] p-4 py-3.75">
                         <input type="checkbox" id="accordion-toggle-2" class="peer hidden" checked />
 
                         <label for="accordion-toggle-2"
                             class="flex items-center justify-between list-none cursor-pointer select-none">
-                            <span
-                                class="heading text-[clamp(16px,1.53vw,22px)] leading-150 text-white font-semibold">
+                            <span class="heading text-[clamp(16px,1.53vw,22px)] leading-150 text-white font-semibold">
                                 Volutpat consequat dictumst vel donec.
                             </span>
 
@@ -817,8 +817,7 @@
                         <div
                             class="grid grid-rows-[0fr] transition-[grid-template-rows] duration-500 ease-in-out peer-checked:grid-rows-[1fr]">
                             <div class="overflow-hidden">
-                                <p
-                                    class="para pt-6 text-white opacity-70 text-[clamp(14px,1.5vw,18px)] leading-180">
+                                <p class="para pt-6 text-white opacity-70 text-[clamp(14px,1.5vw,18px)] leading-180">
                                     Amet vitae hendrerit facilisi gravida. Nascetur sed luctus
                                     sit elit in mi orci. Aliquet ullamcorper quis felis at
                                     scelerisque non faucibus. Amet vitae hendrerit facilisi
@@ -832,13 +831,12 @@
                         </div>
                     </div>
                     <div
-                        class="w-full bg-main-gradient border border-solid border-gray rounded-[10px] backdrop-blur-[32px] p-4">
+                        class="w-full bg-main-gradient border border-solid border-gray rounded-custom backdrop-blur-[32px] p-4 py-3.75">
                         <input type="checkbox" id="accordion-toggle-3" class="peer hidden" />
 
                         <label for="accordion-toggle-3"
                             class="flex items-center justify-between list-none cursor-pointer select-none">
-                            <span
-                                class="heading text-[clamp(16px,1.53vw,22px)] leading-150 text-white font-semibold">
+                            <span class="heading text-[clamp(16px,1.53vw,22px)] leading-150 text-white font-semibold">
                                 Volutpat consequat dictumst vel donec.
                             </span>
 
@@ -855,8 +853,7 @@
                         <div
                             class="grid grid-rows-[0fr] transition-[grid-template-rows] duration-500 ease-in-out peer-checked:grid-rows-[1fr]">
                             <div class="overflow-hidden">
-                                <p
-                                    class="para pt-6 text-white opacity-70 text-[clamp(14px,1.5vw,18px)] leading-180">
+                                <p class="para pt-6 text-white opacity-70 text-[clamp(14px,1.5vw,18px)] leading-180">
                                     Amet vitae hendrerit facilisi gravida. Nascetur sed luctus
                                     sit elit in mi orci. Aliquet ullamcorper quis felis at
                                     scelerisque non faucibus. Amet vitae hendrerit facilisi
@@ -870,13 +867,12 @@
                         </div>
                     </div>
                     <div
-                        class="w-full bg-main-gradient border border-solid border-gray rounded-[10px] backdrop-blur-[32px] p-4">
+                        class="w-full bg-main-gradient border border-solid border-gray rounded-custom backdrop-blur-[32px] p-4 py-3.75">
                         <input type="checkbox" id="accordion-toggle-4" class="peer hidden" />
 
                         <label for="accordion-toggle-4"
                             class="flex items-center justify-between list-none cursor-pointer select-none">
-                            <span
-                                class="heading text-[clamp(16px,1.53vw,22px)] leading-150 text-white font-semibold">
+                            <span class="heading text-[clamp(16px,1.53vw,22px)] leading-150 text-white font-semibold">
                                 Volutpat consequat dictumst vel donec.
                             </span>
 
@@ -893,8 +889,7 @@
                         <div
                             class="grid grid-rows-[0fr] transition-[grid-template-rows] duration-500 ease-in-out peer-checked:grid-rows-[1fr]">
                             <div class="overflow-hidden">
-                                <p
-                                    class="para pt-6 text-white opacity-70 text-[clamp(14px,1.5vw,18px)] leading-180">
+                                <p class="para pt-6 text-white opacity-70 text-[clamp(14px,1.5vw,18px)] leading-180">
                                     Amet vitae hendrerit facilisi gravida. Nascetur sed luctus
                                     sit elit in mi orci. Aliquet ullamcorper quis felis at
                                     scelerisque non faucibus. Amet vitae hendrerit facilisi
@@ -908,13 +903,12 @@
                         </div>
                     </div>
                     <div
-                        class="w-full bg-main-gradient border border-solid border-gray rounded-[10px] backdrop-blur-[32px] p-4">
+                        class="w-full bg-main-gradient border border-solid border-gray rounded-custom backdrop-blur-[32px] p-4 py-3.75">
                         <input type="checkbox" id="accordion-toggle-5" class="peer hidden" />
 
                         <label for="accordion-toggle-5"
                             class="flex items-center justify-between list-none cursor-pointer select-none">
-                            <span
-                                class="heading text-[clamp(16px,1.53vw,22px)] leading-150 text-white font-semibold">
+                            <span class="heading text-[clamp(16px,1.53vw,22px)] leading-150 text-white font-semibold">
                                 Volutpat consequat dictumst vel donec.
                             </span>
 
@@ -931,8 +925,7 @@
                         <div
                             class="grid grid-rows-[0fr] transition-[grid-template-rows] duration-500 ease-in-out peer-checked:grid-rows-[1fr]">
                             <div class="overflow-hidden">
-                                <p
-                                    class="para pt-6 text-white opacity-70 text-[clamp(14px,1.5vw,18px)] leading-180">
+                                <p class="para pt-6 text-white opacity-70 text-[clamp(14px,1.5vw,18px)] leading-180">
                                     Amet vitae hendrerit facilisi gravida. Nascetur sed luctus
                                     sit elit in mi orci. Aliquet ullamcorper quis felis at
                                     scelerisque non faucibus. Amet vitae hendrerit facilisi
@@ -948,15 +941,13 @@
                 </div>
             </div>
         </div>
-        <div class="designs relative hidden sm:block">
-            <img width="537" height="716"
-                class="absolute -top-337.5 left-[-8%] object-contain h-179 hidden xl:block"
+        <div class="designs relative hidden sm:block h-0">
+            <img width="537" height="716" class="absolute -top-337.5 left-[-8%] object-contain h-179 hidden xl:block"
                 src="assets/images/design-left.webp" alt="" />
             <img width="537" height="716"
                 class="absolute top-[-1550px] right-[-8%] object-contain h-179 hidden xl:block"
                 src="assets/images/design-right.webp" alt="" />
-            <img width="537" height="716"
-                class="absolute top-50 right-[-7%] object-contain h-179 hidden xl:block"
+            <img width="537" height="716" class="absolute top-50 right-[-7%] object-contain h-179 hidden xl:block"
                 src="assets/images/design-right.webp" alt="" />
             <div
                 class="circle bg-yellow relative -top-300 xl:-top-337.5 right-[-95%] size-25 xl:size-73 rounded-full blur-[100px] xl:blur-[200px]">
@@ -967,4 +958,5 @@
         </div>
     </section>
 </body>
+
 </html>
